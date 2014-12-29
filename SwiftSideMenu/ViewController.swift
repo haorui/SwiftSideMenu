@@ -16,10 +16,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         // test commit
         sayHello()
+        sayBye()
     }
     
     func sayHello(){
         NSLog("hello")
+    func sayBye(){
+        NSLog("bye")
     }
 
     override func didReceiveMemoryWarning() {
