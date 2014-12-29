@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     
     func sayHello(){
         NSLog("hello")
+    }
     func sayBye(){
         NSLog("bye")
     }
